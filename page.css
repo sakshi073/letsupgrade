@@ -1,0 +1,36 @@
+/* Reset some default styles */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Set background color for the entire page */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Style the div with a different background color, text color, and padding */
+.page-container {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+}
+
+/* Apply a unique font to the headings (<h1> and <h2>) */
+h1, h2 {
+    font-family: 'YourFontName', sans-serif; /* Replace 'YourFontName' with the desired font name */
+}
+
+/* Add a border around the <section> elements with rounded corners */
+section {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style the list items (<li>) inside the skills section with a different color on hover */
+section ul li:hover {
+    color: #ff6600; /* Replace with the desired hover color */
+}
